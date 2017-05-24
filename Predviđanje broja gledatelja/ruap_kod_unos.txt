@@ -1,0 +1,25 @@
+Console.WriteLine("Unesite kapacitet stadiona: ");
+            string input_kapacitet = Console.ReadLine();
+            int kapacitet;
+            Int32.TryParse(input_kapacitet, out kapacitet);
+
+            Console.WriteLine("Unesite temperaturu u gradu: ");
+            string input_temp = Console.ReadLine();
+            int temp;
+            Int32.TryParse(input_temp, out temp);
+
+            List<string> prognoza = new List<string> { "vedro", "oblaèno", "olujna grmljavina", "kiša", "maglovito", "snijeg" };
+            Console.WriteLine("Unesite vrijeme u gradu: ");
+            Console.WriteLine("Moguci unosi su: ");
+            prognoza.ForEach(i => Console.WriteLine("{0}\n", i));
+            string vrijeme = Console.ReadLine();
+
+            Console.WriteLine("Da li je ovo utakmica izmeðu rivala?(0 - NE, 1 - DA)");
+            string input_rival = Console.ReadLine();
+            int rival;
+            Int32.TryParse(input_rival, out rival);
+
+            Console.WriteLine("Unesite broj stanovnika u gradu domaæina: ");
+            string input_br_stan = Console.ReadLine();
+            int br_stan;
+            Int32.TryParse(input_br_stan, out br_stan);

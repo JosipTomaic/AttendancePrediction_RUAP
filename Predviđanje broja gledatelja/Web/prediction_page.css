@@ -1,0 +1,84 @@
+.child {
+	height: 100%;
+	display:table-cell;
+	vertical-align: middle;
+}
+
+.myTitle{
+	color: white;
+	font-size: 150%;
+	margin-top: 2%;
+}
+
+.roundedDiv{
+	border-color: black;
+	background-color: red;
+	color: white;
+	font-size: 150%;
+}
+
+.centerNavigation{
+	text-align: center;
+	background-color: red;
+}
+
+.card-block{
+	border: 1px solid grey;
+	border-radius: 5%;
+	margin: 1%;
+	width: 100%;
+}
+
+.card-img-top{
+	width: 50%;
+	margin: 1%;
+}
+
+.stadium_block:hover{
+	-moz-box-shadow: 0 0 10px #1a75ff;
+	-webkit-box-shadow: 0 0 10px #1a75ff;
+	box-shadow: 0 0 20px #1a75ff;
+}
+
+.temp_and_weather_round{
+	border-radius: 2%;
+}
+
+.confirmButton{
+	position: fixed;
+	bottom: 0%;
+	left: 50%;
+	font-size: 150%;
+	border-radius: 5%;
+}
+
+@media only screen and (max-width: 500px) {
+    .confirmButton{
+		position: fixed;
+		bottom: 0%;
+		left: 35%;
+		font-size: 150%;
+		border-radius: 5%;
+	}
+}
+
+.weatherImage{
+	width: 50%;
+	margin: 2%;
+}
+
+img:hover{
+	-moz-box-shadow: 0 0 10px #1a75ff;
+	-webkit-box-shadow: 0 0 10px #1a75ff;
+	box-shadow: 0 0 20px #1a75ff;
+}
+
+.rivalImage{
+	width: 50%;
+	margin: 2%;
+}
+
+.rivalText{
+	font-size: 200%;
+	font-weight: bolder; 
+}

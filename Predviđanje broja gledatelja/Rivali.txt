@@ -1,0 +1,43 @@
+Bayern Munich - Borussia Dortmund
+		Werder Bremen
+		Hamburger SV
+		Bayer Leverkusen
+		Borussia Monchengladbach
+		Schalke
+		Stuttgart
+		Hoffenheim
+
+Eintracht Frankfurt - Mainz
+
+Mainz - Eintracht Frankfurt
+
+Bayer Leverkusen - FC Koln
+		   Bayern Munich
+
+Werder Bremen - Bayern Munich
+		Hamburger SV
+		Schalke
+
+Borussia Dortmund - Schalke
+		    Bayern Munich
+
+Stuttgart - Bayern Munich
+
+FC Koln - Bayer Leverkusen
+	  Borussia Monchengladbach
+
+Borussia Monchengladbach - FC Koln
+			   Bayern Munich
+
+Schalke - Borussia Dortmund
+	  Bayern Munich
+	  Werder Bremen
+
+Wolfsburg - Hannover
+
+Hannover - Wolfsburg
+
+Hoffenheim - Bayern Munich
+
+Hamburger SV - Bayern Munich
+	       Werder Bremen

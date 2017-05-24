@@ -1,0 +1,3 @@
+app name: jtomaicaagaticProjekt
+resource group: jtomaicaagatic-GROUP
+database name: jtomaicaagaticdb

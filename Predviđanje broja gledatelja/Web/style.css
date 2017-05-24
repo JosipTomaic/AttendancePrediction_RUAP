@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin:0;
+	padding:0;
+}
+#login-form
+{
+	margin-top:70px;
+	
+}
+#logbody
+{
+	background-image:url("background.jpg");
+}
+#regbody
+{
+	background-image:url("background.jpg");
+}
+table
+{
+	border:solid #dcdcdc 1px;
+	padding:25px;
+	box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
+	background-color:white;
+}
+table tr,td
+{
+	padding:15px;
+	//border:solid #e1e1e1 1px;
+}
+table tr td input
+{
+	width:97%;
+	height:45px;
+	border:solid #e1e1e1 1px;
+	border-radius:3px;
+	padding-left:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	background:#f9f9f9;
+	transition-duration:0.5s;
+	box-shadow: inset 0px 0px 1px rgba(0,0,0,0.4);
+}
+
+table tr td button
+{
+	width:100%;
+	height:45px;
+	border:0px;
+	background:rgba(12,45,78,11);
+	background:-moz-linear-gradient(top, #595959 , #515151);
+	border-radius:3px;
+	box-shadow: 1px 1px 1px rgba(1,0,0,0.2);
+	color:#f9f9f9;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bolder;
+	text-transform:uppercase;
+}
+table tr td button:active
+{
+	position:relative;
+	top:1px;
+}
+table tr td a
+{
+	text-decoration:none;
+	color:#00a2d1;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+}
+
+
+/* css for home page  */
+
+*
+{
+	margin:0;
+	padding:0;
+}
+#header
+{
+	position: fixed;
+	width:100%;
+	height:60px;
+	background:rgba(00,11,22,33);
+	color:#9fa8b0;
+	font-family:Verdana, Geneva, sans-serif;
+	 border-bottom: 2px solid #a7e0ee;
+}
+#header #left
+{
+	float:left;
+	position:relative;
+}
+#header #left label
+{
+	position:relative;
+	top:5px;
+	margin-right:250px;
+	margin-left:40px;
+	font-size:15px;
+	font-weight:bold
+}
+
+
+
+
+#header #right
+{
+	float:right;
+	position:relative;
+	
+}
+#header #right #content
+{
+	float: right;
+	position:relative;
+	color:#fff;
+	padding-top: 30px;
+	padding-right: 15px;
+}
+#header #right #content a
+{
+	color:#00a2d1;
+	text-decoration: none;
+}
+
+#header_break{
+	width: 100%;
+	height: 0;
+	border-bottom: 2px solid #a7e0ee;
+}
+#body
+{
+	text-align:center;
+	margin-top:150px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:36px;
+	padding-bottom:60px;
+
+}
+#footer{
+	position:fixed;
+	bottom:0;
+	 width:100%;
+	 height:60px;   
+	 background:rgba(00,11,22,33);
+	 color:#9fa8b0;
+	 border-top: 2px solid #a7e0ee;
+
+}
+#footer #copy{
+	float:left;
+	position: relative;
+	margin-left: 50%;
+	padding-top: 20px;
+}
+#footer #social{
+	float: right;
+	position: relative;
+	padding-top: 15px;
+	padding-right: 10px;
+	letter-spacing: 5px;
+
+}
+
+
+/*navigation menu*/
+.nav ul li{
+display:inline;
+padding:10px;
+list-style: none;
+
+}
+.nav ul
+{
+margin-left: 500px;
+position: fixed;
+padding-top: 30px;
+width:800px;
+display:block;
+color:white;
+background:rgba(00,11,22,33);
+
+
+
+}
+.nav ul li a{
+padding:3px;
+margin:0px;
+text-decoration: none;
+color: white;
+
+}
+
+.nav ul li a:hover{
+border-bottom:3px solid #2DA8F8;
+padding-bottom:1px;
+}
+.nav ul li a:active{
+border-bottom:3px solid #2DA8F8;
+padding-bottom:1px;
+}
+#txt_about{
+	font-family: Tahoma;
+	width: 600px;
+	max-width: 600px;
+	height: 220px; 
+	max-height: 220px;
+	text-decoration: none;
+	border:solid 2px #2DA8F8;
+	padding: 5px;
+	}
+#contact_form{
+	font-size: 12px;
+	height: 200;
+	width: 300;
+
+	
+
+}
+#contact_form tr{
+
+}
+#contact_form tr td input{
+	height: 20px;
+	width: 100%;
+	
+
+}
+#contact_form tr td #btn_send{
+	font-weight: bold;
+	text-align: center;
+
+}
+
+#tbl 
+{
+	border:solid #dcdcdc 2px;
+	padding:1px;
+	background-color:white;
+	margin:40px 0px 0px 40px;
+}
+#tbl th
+{
+	padding:1px;
+	border:solid #e1e1e1 2px;
+	font-size: 10px;
+
+}
+#tbl tr
+{
+	padding:2px;
+	border:solid #e1e1e1 1px;
+	font-size: 10px;
+}
+.slideshow
+{
+	opacity: 0;
+	-webkit-transition:opacity 1.0s linear 0s;
+	transition: opacity 1.0s linear 0s;
+
+}
+.slideshow
+{
+	-webkit-animation:fading 10s infinite;
+	animation:fading 10s infinite;
+}
+@-webkit-keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+
+
